@@ -36,7 +36,7 @@ export default function Home() {
             ea fugit commodi voluptates odit.
           </p>
         </div>
-        <Link href="/about">
+        <Link href="/project">
           <button type="button"> Mes Réalisations </button>
         </Link>
       </Layout>
