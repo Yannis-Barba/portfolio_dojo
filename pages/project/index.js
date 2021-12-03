@@ -37,7 +37,7 @@ export default function About({ projects }) {
 }
 
 export async function getStaticProps() {
-  const res = await axios.get(`http://localhost:3000/api/projects`);
+  const res = await axios.get(`http://localhost:3000/api/project`);
   const projects = await res.data;
 
   // if (!projects) {

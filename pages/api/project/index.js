@@ -1,5 +1,5 @@
-const connection = require("../../db-config");
-const Project = require("../../models/project");
+const connection = require("../../../db-config");
+const Project = require("../../../models/project");
 
 export default async function projects(req, res) {
   console.log("sur le serveur");

@@ -2,6 +2,7 @@
 
 import axios from "axios";
 import { getProjects, getOneProject } from "../../models/project";
+import Layout from "../../components/Layout";
 
 // const Project = ({project}) => {
 //   const router = useRouter();
@@ -15,7 +16,13 @@ import { getProjects, getOneProject } from "../../models/project";
 function Project({ project }) {
   if (!project) return "loading...";
 
-  return <p> Post : {project.id}</p>;
+  return (
+    <Layout pageTitle={project.title}>
+      <img alt={project.title} src={project.main_pictures} />
+      <h2>{project.title}</h2>
+      <p>{project.details}</p>
+    </Layout>
+  );
 }
 
 export async function getStaticPaths() {
