@@ -29,7 +29,7 @@ export default function Home() {
             sed aliquam officiis qui sunt consectetur? Et rerum saepe aut
             quaerat atque rem quidem corporis aut aliquid sequi ex delectus
             aperiam ea enim voluptas ad reprehenderit Quis! Eos modi quis nam
-            temporibus fugiat est fuga soluta ut dolorum autem et earum
+            temporibus fugiat est fuga 👌🏻soluta ut dolorum autem et earum
             molestiae et omnis ipsam eos unde tempora. Qui quaerat tenetur quo
             accusantium iste ea voluptatem totam non earum pariatur non nesciunt
             vero est ipsa illo eos impedit aliquid. Aut temporibus reprehenderit
